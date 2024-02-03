@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-size: 16px;
+}
+
+header {
+    background: #003366;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    padding-top: 20px;
+}
+
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Aligns items to the start of the flex container */
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+article h1{
+    flex:3
+}
+
+article img {
+    flex: 1;
+    max-width: 50%; /* Limits the image's width to half of the article's width */
+    height: auto;
+    margin-right: 20px; /* Adds some space between the image and the text */
+}
+
+
+article div {
+    flex: 2; 
+}
+article p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p, footer a {
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+}
